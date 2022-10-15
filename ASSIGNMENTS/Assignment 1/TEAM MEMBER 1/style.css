@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(44,180,228);
+    background: linear-gradient(90deg, rgba(44,180,228,1) 0%, rgba(209,35,247,1) 92%);
+}
+
+#container-signup{
+    width: 400px;
+    height: 700px;
+    margin-top: 30px;
+    border-radius: 40px;
+    background-color: black; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    background: -webkit-linear-gradient(rgba(44,180,228,1),  rgba(209,35,247,1) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     margin: 30px;
+   text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+input{
+    width:350px;
+    height: 35px;
+    background-color: #F3F3F3;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #171717;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+}
+input::placeholder{
+    color: #171717;
+    font-weight: 400;
+    text-align: center;
+}
+button{
+    width:200px;
+    height: 35px;
+    background-color: transparent;
+    background: rgb(44,180,228);
+    background: linear-gradient(90deg, rgba(44,180,228,1) 0%, rgba(209,35,247,1) 92%);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color:#fff;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+#detiles{
+    display:flex;
+    flex-direction: row;
+    margin: 30px;
+}
+#detiles h5{
+    color: #171717;
+    font-size: 20px;
+    font-weight: 40px;
+    margin-right: 20px;
+}
+#detiles .a{
+    font-size: 20px;
+    font-weight: 40px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(rgba(44,180,228,1),  rgba(209,35,247,1) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+@media screen and (max-width:600px){
+    #container-signup{
+        width: 220px;
+        height: 550px;
+        border-radius: 10px;
+    }
+    input{
+        width:200px;
+        height: 30px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    button{
+        width:200px;
+        height: 30px;
+        margin:10px;
+        border-radius: 10px;
+
+    }
+
+}
