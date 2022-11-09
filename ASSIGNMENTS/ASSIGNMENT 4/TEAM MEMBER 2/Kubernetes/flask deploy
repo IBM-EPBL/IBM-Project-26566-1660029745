@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: webpage
-          image: venkateswar/flask
+          image: Madlin jency/flask
           imagePullPolicy: Never
           ports:
             - containerPort: 5000
